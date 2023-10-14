@@ -135,7 +135,7 @@ main {
 /* Svg Text Images */
 .svg {
     position: absolute;
-    right: 1%;/*25px;*/
+    right: 3%;/*25px;*/
     top: -6%;/*-25px;*/
 }
 .text-me {
