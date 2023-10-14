@@ -135,8 +135,8 @@ main {
 /* Svg Text Images */
 .svg {
     position: absolute;
-    right: 3%;/*25px;*/
-    top: -6%;/*-25px;*/
+    right: 3%;
+    top: -6%;
 }
 .text-me {
     width: 13%;
@@ -315,6 +315,11 @@ button:visited:hover,
         max-width: 1350px;
         margin: 0 auto;
     
+    }
+
+    .svg {
+        right: 3%;
+        top: -5%;
     }
 
     .skill {
