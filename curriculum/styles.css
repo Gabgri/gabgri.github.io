@@ -1,0 +1,98 @@
+.box {
+    margin-top: 20px;
+    padding: 20px 20px;
+    width: 100%;
+    height: auto;
+
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+}
+
+.box:first-of-type {
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: transparent;
+    box-shadow: 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box h1:last-of-type {
+    display: none;
+}
+
+.box-c {
+    margin: 15px 0;
+}
+.box-c:first-of-type {
+    margin: 0 0;
+}
+.box-c:last-of-type {
+    margin-bottom: 0;
+}
+
+
+.right-side {
+    height: fit-content;
+    order: 0;
+
+  
+}
+.left-side {
+    height: fit-content;
+    order: 1;
+
+}
+.ep li,
+.if li {
+    line-height: 1.5em;
+}
+.ep h2,
+.if h2 {
+    line-height: 2.5em;
+}
+
+.competenze li {
+    line-height: 1.7em;
+}
+
+span {
+    color: #12418d; /* Not used */
+    color: #ffffff;
+    background-color: #b1b1b1;
+    border-radius: 5px;
+    padding: 0 5px;
+    font-weight: 700;
+
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .box:first-of-type {
+        font-size: 17px;
+    }
+    .box h1:last-of-type {
+        display: contents;
+    }
+}
+
+@media only screen and (min-width: 961px) {
+    /* Space = 1.5% on main css stylesheet*/
+    .left-side {
+        width: 37.5%;
+        margin-left:1.5%;
+        height: auto;
+        order: 0
+    }
+    .right-side {
+        width: 56.5%;
+        margin-right:1.5%;
+        height: fit-content;
+        order: 1
+    }    
+
+    .box h1:last-of-type {
+        display: contents;
+    }
+}

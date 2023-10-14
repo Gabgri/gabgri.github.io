@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0"/>
+
+        <!--Open Graph-->
+        <meta property="og:type" content="website"/>                            
+        <meta property="og:url" content="#"/>                                 <!--DA MODIFICARE-->
+        <meta property="og:title" content="Portfolio personale di Gabriele"/>
+        <meta property="og:image" content="#"/>
+
+        <title>Portfolio - Gabriele Grio</title>
+        <!--Favicon-->
+        <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico"/>
+        <!--Css stylesheet-->
+        <link rel="stylesheet" href="./assets/CSS/styles.css"/>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="./index.html">
+                            <img src="./assets/images/home.svg" width="40"/>
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="#anchor-contacts">
+                            <img src="./assets/images/contacts.svg" width="40">
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="curriculum/index.html">
+                            <img src="./assets/images/profile.svg" width="40"/>
+                        </a>
+                    </li> 
+                </ul>
+                <ul class="menu-desktop">
+                    <li>
+                        <a href="./index.html">
+                            Portfolio
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="#anchor-contacts">
+                            Contatti
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="curriculum/index.html">
+                            Curriculum
+                        </a>
+                    </li> 
+                </ul>
+            </nav>
+        </header>
+
+        <main> 
+                <div class="box-p bio">
+                    <div class="svg text-me">
+                        <img src="./assets/images/me.svg"/>
+                    </div>
+                    <img src="./assets/images/profile-photo.jpeg" width="100"/>
+                    <p>
+                        Sono un appassionato di Informatica, Auto e Tecnologia. <br/>
+                        Mi piace informarmi sull'uscita di nuove tecnologie e prodotti sia in campo software che hardware; <br/>
+                        e mi piace l'idea di poter sviluppare e creare app con diverse funzionalità. <br/>
+                        Nel tempo libero, progetto/stampo in 3D e riprendo col drone. <br/>
+                    </p>
+                    <a class=button href="./curriculum/index.html">Curriculum</a>
+                </div>
+                <div class="space"></div>
+                <div class="box-p skill">
+                    <div class="svg text-Abilità">
+                        <img src="./assets/images/Abilità.svg"/>
+                    </div>
+                    <ul>
+                        <li>Sviluppo siti web con wordpress, html e css</li>
+                        <li>Utilizzo di Git</li>
+                        <li>Assemblaggio e configurazione PC Desktop,</li>
+                        <li>Configurazione piccole reti (nas, modem e switch gestiti, osi 3) e telecamere (ip),</li>
+                        <li>Prototipazione e stampa 3D FDM, opensource</li>
+                        <li>Configurazione della domotica, per la gestione della casa.</li>
+                    </ul> 
+                </div>
+
+                <div class="box-p works">
+                    <div class="svg text-Lavori">
+                        <img src="./assets/images/Lavori.svg"/>
+                    </div>
+                    <article>
+                        <h3>Portfolio Personale</h3>
+                        <p>
+                            Sviluppo e creazione di questo portfolio, utilizzando html e css. <br/>
+                        <p> Il portfolio si presenta con uno stile molto semplice, consiste di diversi box, divisi per argomento: <br/>
+                        </p>
+                            Bio, Abilità, Lavori e Contatti, più la pagina relativa al curriculum, anch'essa divisa in due box. <br/>
+                        <p>Il sito è completamente responsive e permette la consultazione dei lavori e del curriculum anche sui dispositivi più piccoli.
+                        </p>
+                        </p>
+                    </article>
+                </div>
+
+
+                <div class="box-p contacts" id="anchor-contacts">
+                    <div class="svg text-Contatti">
+                        <img src="./assets/images/Contatti.svg"/>
+                    </div>
+
+                    <section>
+                    <form action="" method="get" class="contact-form">
+                        <div class="form-row">
+                            <input id="full-name" 
+                                    name="full-name" 
+                                    type="text"  
+                                    required=""/>
+                            <label for="full-name">Name</label>
+                        </div>
+    
+                        <div class="form-row">
+                            <input id="email" 
+                                    name="email" 
+                                    type="email"  
+                                    required=""/>
+                            <label for="email">Email</label>
+                        </div>
+    
+                        <div class="form-row">
+                            <textarea name="message" required=""></textarea>
+                        </div>
+    
+                        <div class="form-row">
+                            <button>INVIA</button>
+                        </div>
+                    </form>
+
+                    <div class="social">
+                        <a href="https://www.instagram.com/gabrielegrio/" target="_blank"><img src="./assets/images/instagram.svg" alt="Link to my instagram account" width="25"/></a>
+                        <a href="https://www.linkedin.com/feed/" target="_blank"><img src="./assets/images/linkedin.svg" alt="Link to my linkedin account" width="25"/></a>
+                    </div>
+                </section>
+                </div>
+        </main>
+    
+    </body>
+
+</html>
